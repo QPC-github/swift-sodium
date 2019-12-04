@@ -1,5 +1,5 @@
 import Cocoa
-import Sodium
+import Sodium_OSX
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {

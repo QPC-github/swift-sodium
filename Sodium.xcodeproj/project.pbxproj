@@ -21,7 +21,7 @@
 		098DAF041F76E35C00DFB1C3 /* SecretStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A5AC111F74466700D3200B /* SecretStream.swift */; };
 		09A030FF2201096E0028A416 /* libsodium-watchos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 09A030FE2201096E0028A416 /* libsodium-watchos.a */; };
 		09A5AC121F74466700D3200B /* SecretStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A5AC111F74466700D3200B /* SecretStream.swift */; };
-		09A943D31A4EB5F500C8A04F /* Sodium.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09A943C71A4EB5F500C8A04F /* Sodium.framework */; };
+		09A943D31A4EB5F500C8A04F /* Sodium_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09A943C71A4EB5F500C8A04F /* Sodium_iOS.framework */; };
 		09A943DA1A4EB5F500C8A04F /* SodiumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A943D91A4EB5F500C8A04F /* SodiumTests.swift */; };
 		28FA5A1520C9E71F00D7BE2B /* Aead.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87EEC3F2063C655006C830D /* Aead.swift */; };
 		6096E7321F194FA800E6599F /* KeyDerivation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A274051F13AD9300958702 /* KeyDerivation.swift */; };
@@ -30,11 +30,11 @@
 		60CB27B91EB3714E0079CA46 /* Sodium.h in Headers */ = {isa = PBXBuildFile; fileRef = 09A943CC1A4EB5F500C8A04F /* Sodium.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		60CB27CC1EB37A520079CA46 /* libsodium-osx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 90C75EAD1AE357CB00F1E749 /* libsodium-osx.a */; };
 		60CB27CD1EB37A5D0079CA46 /* libsodium-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 09A943EA1A4EB76F00C8A04F /* libsodium-ios.a */; };
-		60D50A6A1FD1778300FCE80F /* Sodium.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09A943C71A4EB5F500C8A04F /* Sodium.framework */; };
-		60D50A6B1FD1778300FCE80F /* Sodium.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 09A943C71A4EB5F500C8A04F /* Sodium.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		60D50A6A1FD1778300FCE80F /* Sodium_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09A943C71A4EB5F500C8A04F /* Sodium_iOS.framework */; };
+		60D50A6B1FD1778300FCE80F /* Sodium_iOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 09A943C71A4EB5F500C8A04F /* Sodium_iOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7D6373E21E7B5E0800F04E72 /* KeyExchange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6373E11E7B5E0800F04E72 /* KeyExchange.swift */; };
 		7D6373E31E7B6C6E00F04E72 /* KeyExchange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D6373E11E7B5E0800F04E72 /* KeyExchange.swift */; };
-		901644FF1AE3733F00163E3E /* Sodium.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90C75E941AE3571900F1E749 /* Sodium.framework */; };
+		901644FF1AE3733F00163E3E /* Sodium_OSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90C75E941AE3571900F1E749 /* Sodium_OSX.framework */; };
 		901645031AE376C100163E3E /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901645021AE376C100163E3E /* Helpers.swift */; };
 		901645041AE376C100163E3E /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901645021AE376C100163E3E /* Helpers.swift */; };
 		9016450A1AE376E400163E3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901645051AE376E400163E3E /* AppDelegate.swift */; };
@@ -66,8 +66,8 @@
 		D87D516921647598006D2C03 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87D516821647598006D2C03 /* ExtensionDelegate.swift */; };
 		D87D516B21647599006D2C03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D87D516A21647599006D2C03 /* Assets.xcassets */; };
 		D87D516F21647599006D2C03 /* Example Watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = D87D515521647597006D2C03 /* Example Watch.app */; };
-		D87D517A21647668006D2C03 /* Sodium.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D891FE9421642CB40092AA84 /* Sodium.framework */; };
-		D87D517C21647688006D2C03 /* Sodium.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D891FE9421642CB40092AA84 /* Sodium.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D87D517A21647668006D2C03 /* Sodium_watchOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D891FE9421642CB40092AA84 /* Sodium_watchOS.framework */; };
+		D87D517C21647688006D2C03 /* Sodium_watchOS.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D891FE9421642CB40092AA84 /* Sodium_watchOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D87D517D21647698006D2C03 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901645021AE376C100163E3E /* Helpers.swift */; };
 		D891FE9E2164323A0092AA84 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094F21E91A5017CA001C3141 /* Box.swift */; };
 		D891FE9F2164323A0092AA84 /* Bytes.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD35BB6220932A83006BF351 /* Bytes.swift */; };
@@ -151,7 +151,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				60D50A6B1FD1778300FCE80F /* Sodium.framework in Embed Frameworks */,
+				60D50A6B1FD1778300FCE80F /* Sodium_iOS.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -184,7 +184,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				D87D517C21647688006D2C03 /* Sodium.framework in CopyFiles */,
+				D87D517C21647688006D2C03 /* Sodium_watchOS.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,7 +208,7 @@
 		097F20D91AF127480088C2FE /* PWHash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PWHash.swift; sourceTree = "<group>"; };
 		09A030FE2201096E0028A416 /* libsodium-watchos.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libsodium-watchos.a"; sourceTree = "<group>"; };
 		09A5AC111F74466700D3200B /* SecretStream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretStream.swift; sourceTree = "<group>"; };
-		09A943C71A4EB5F500C8A04F /* Sodium.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Sodium.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		09A943C71A4EB5F500C8A04F /* Sodium_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Sodium_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		09A943CB1A4EB5F500C8A04F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		09A943CC1A4EB5F500C8A04F /* Sodium.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sodium.h; sourceTree = "<group>"; };
 		09A943D21A4EB5F500C8A04F /* SodiumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SodiumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -285,7 +285,7 @@
 		9016453D1AE37E6700163E3E /* Base.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Base.lproj; path = Examples/iOS/Base.lproj; sourceTree = "<group>"; };
 		901645451AE37F6300163E3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Examples/OSX/Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		901645471AE37F7200163E3E /* Base.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Base.lproj; path = Examples/OSX/Base.lproj; sourceTree = "<group>"; };
-		90C75E941AE3571900F1E749 /* Sodium.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Sodium.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90C75E941AE3571900F1E749 /* Sodium_OSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Sodium_OSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		90C75EAD1AE357CB00F1E749 /* libsodium-osx.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libsodium-osx.a"; sourceTree = "<group>"; };
 		A0918C771E92489100C1DC33 /* Auth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Auth.swift; sourceTree = "<group>"; };
 		D208E6BD1ECC7A69006D2137 /* sodium_lib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sodium_lib.h; sourceTree = "<group>"; };
@@ -301,7 +301,7 @@
 		D87D516821647598006D2C03 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		D87D516A21647599006D2C03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D87D516C21647599006D2C03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D891FE9421642CB40092AA84 /* Sodium.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Sodium.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D891FE9421642CB40092AA84 /* Sodium_watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Sodium_watchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD1E4D0E20922C9E00BE7A3F /* ExitCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExitCode.swift; sourceTree = "<group>"; };
 		DD35BB4F20924A35006BF351 /* NonceGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NonceGenerator.swift; sourceTree = "<group>"; };
 		DD35BB5220924B6F006BF351 /* KeyPairGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyPairGenerator.swift; sourceTree = "<group>"; };
@@ -324,7 +324,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09A943D31A4EB5F500C8A04F /* Sodium.framework in Frameworks */,
+				09A943D31A4EB5F500C8A04F /* Sodium_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,7 +332,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60D50A6A1FD1778300FCE80F /* Sodium.framework in Frameworks */,
+				60D50A6A1FD1778300FCE80F /* Sodium_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,7 +340,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				901644FF1AE3733F00163E3E /* Sodium.framework in Frameworks */,
+				901644FF1AE3733F00163E3E /* Sodium_OSX.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,7 +356,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D87D517A21647668006D2C03 /* Sodium.framework in Frameworks */,
+				D87D517A21647668006D2C03 /* Sodium_watchOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,12 +388,12 @@
 		09A943C81A4EB5F500C8A04F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				09A943C71A4EB5F500C8A04F /* Sodium.framework */,
+				09A943C71A4EB5F500C8A04F /* Sodium_iOS.framework */,
 				09A943D21A4EB5F500C8A04F /* SodiumTests.xctest */,
-				90C75E941AE3571900F1E749 /* Sodium.framework */,
+				90C75E941AE3571900F1E749 /* Sodium_OSX.framework */,
 				901644B61AE36EA700163E3E /* Example iOS.app */,
 				901644DC1AE36F2D00163E3E /* Example OSX.app */,
-				D891FE9421642CB40092AA84 /* Sodium.framework */,
+				D891FE9421642CB40092AA84 /* Sodium_watchOS.framework */,
 				D87D515521647597006D2C03 /* Example Watch.app */,
 				D87D516121647598006D2C03 /* Example Watch Extension.appex */,
 			);
@@ -673,7 +673,7 @@
 			);
 			name = Sodium_iOS;
 			productName = Sodium;
-			productReference = 09A943C71A4EB5F500C8A04F /* Sodium.framework */;
+			productReference = 09A943C71A4EB5F500C8A04F /* Sodium_iOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		09A943D11A4EB5F500C8A04F /* SodiumTests */ = {
@@ -747,7 +747,7 @@
 			);
 			name = Sodium_OSX;
 			productName = "Sodium-OSX";
-			productReference = 90C75E941AE3571900F1E749 /* Sodium.framework */;
+			productReference = 90C75E941AE3571900F1E749 /* Sodium_OSX.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D87D515421647597006D2C03 /* Example Watch */ = {
@@ -801,7 +801,7 @@
 			);
 			name = Sodium_watchOS;
 			productName = Sodium_watchOS;
-			productReference = D891FE9421642CB40092AA84 /* Sodium.framework */;
+			productReference = D891FE9421642CB40092AA84 /* Sodium_watchOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -1271,7 +1271,7 @@
 					"$(PROJECT_DIR)/Sodium/libsodium",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.pureftpd.swiftodium.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = Sodium;
+				PRODUCT_NAME = Sodium_iOS;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/Sodium $(PROJECT_DIR)/Sodium/libsodium";
@@ -1301,7 +1301,7 @@
 					"$(PROJECT_DIR)/Sodium/libsodium",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.pureftpd.swiftodium.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = Sodium;
+				PRODUCT_NAME = Sodium_iOS;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/Sodium $(PROJECT_DIR)/Sodium/libsodium";
@@ -1446,7 +1446,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.pureftpd.swiftodium.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = Sodium;
+				PRODUCT_NAME = Sodium_OSX;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/Sodium $(PROJECT_DIR)/Sodium/libsodium";
@@ -1478,7 +1478,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.pureftpd.swiftodium.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = Sodium;
+				PRODUCT_NAME = Sodium_OSX;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/Sodium $(PROJECT_DIR)/Sodium/libsodium";
@@ -1625,7 +1625,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = org.pureftpd.swiftodium.Sodium;
-				PRODUCT_NAME = Sodium;
+				PRODUCT_NAME = Sodium_watchOS;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -1665,7 +1665,7 @@
 				);
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = org.pureftpd.swiftodium.Sodium;
-				PRODUCT_NAME = Sodium;
+				PRODUCT_NAME = Sodium_watchOS;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/Sodium $(PROJECT_DIR)/Sodium/libsodium";

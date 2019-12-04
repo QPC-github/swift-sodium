@@ -1,5 +1,5 @@
 import XCTest
-import Sodium
+import Sodium_iOS
 
 class ReadmeTests : XCTestCase {
     static let allTests = [

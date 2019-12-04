@@ -8,7 +8,7 @@
 
 import WatchKit
 import Foundation
-import Sodium
+import Sodium_watchOS
 
 
 class InterfaceController: WKInterfaceController {

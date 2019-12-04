@@ -1,5 +1,5 @@
 import UIKit
-import Sodium
+import Sodium_iOS
 
 class ViewController: UIViewController {
     override func viewDidLoad() {
