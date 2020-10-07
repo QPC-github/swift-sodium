@@ -287,6 +287,7 @@
 		901645471AE37F7200163E3E /* Base.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Base.lproj; path = Examples/OSX/Base.lproj; sourceTree = "<group>"; };
 		90C75E941AE3571900F1E749 /* Sodium_OSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Sodium_OSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		90C75EAD1AE357CB00F1E749 /* libsodium-osx.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libsodium-osx.a"; sourceTree = "<group>"; };
+		9C4449A0252CB2280043726A /* Sodium.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Sodium.xcconfig; sourceTree = "<group>"; };
 		A0918C771E92489100C1DC33 /* Auth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Auth.swift; sourceTree = "<group>"; };
 		D208E6BD1ECC7A69006D2137 /* sodium_lib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sodium_lib.h; sourceTree = "<group>"; };
 		D2A274051F13AD9300958702 /* KeyDerivation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyDerivation.swift; sourceTree = "<group>"; };
@@ -377,6 +378,7 @@
 				D85101051E22F77E003DB2E8 /* README.md */,
 				65437DA2203AF0610027D691 /* Package.swift */,
 				65437DA3203AF0610027D691 /* Sodium.podspec */,
+				9C44499F252CB1F70043726A /* xcconfigs */,
 				901644AF1AE36D6000163E3E /* Examples */,
 				09A943C91A4EB5F500C8A04F /* Sodium */,
 				09A943D61A4EB5F500C8A04F /* SodiumTests */,
@@ -585,6 +587,14 @@
 				901645021AE376C100163E3E /* Helpers.swift */,
 			);
 			name = CommonCode;
+			sourceTree = "<group>";
+		};
+		9C44499F252CB1F70043726A /* xcconfigs */ = {
+			isa = PBXGroup;
+			children = (
+				9C4449A0252CB2280043726A /* Sodium.xcconfig */,
+			);
+			path = xcconfigs;
 			sourceTree = "<group>";
 		};
 		D87D515621647597006D2C03 /* Watch */ = {
@@ -1137,6 +1147,7 @@
 /* Begin XCBuildConfiguration section */
 		09A943DB1A4EB5F500C8A04F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C4449A0252CB2280043726A /* Sodium.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
@@ -1198,6 +1209,7 @@
 		};
 		09A943DC1A4EB5F500C8A04F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C4449A0252CB2280043726A /* Sodium.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
